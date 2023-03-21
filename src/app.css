@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(235, 235, 235);
+    color: rgb(52, 52, 53);
+}
+
+.loader{
+    font-size: large;
+
+    animation: loading 200ms linear 2s infinite alternate;
+}
+
+@keyframes loading {
+    0%{
+        color: inherit;
+    }
+    100%{
+        color: red;
+    }
+}
